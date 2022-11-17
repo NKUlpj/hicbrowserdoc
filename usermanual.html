@@ -32,7 +32,7 @@
                       <li><a href="">BROWSER</a></li>
                       <li class="active"><a href="./usermanual.html">USER MANAUAL</a></li>
                       <li><a href="./data.html">SUPPORT DATA</a></li>
-                      <li><a href="">SOURCE</a></li>
+                      <li><a href="https://github.com/nkulpj/hicbrowser" target="_blank">SOURCE</a></li>
                       <li><a href="./contact.html">CONTACT</a></li>
                   </ul>
               </div><!--/.nav-collapse -->
@@ -181,8 +181,9 @@
 						<span>left: Memory; Middle: Net Delay; right: FPS</span>
 					</div> 
 					<p>
-						This widget provides a simple info box that will help you monitor your browser performance. You can close it in <span class="bghl">tools->setting</span>.
+						<del>This widget provides a simple info box that will help you monitor your browser performance. You can close it in <span class="bghl">tools->setting</span></del>.
 					</p>
+					<p class="warning">UPDATE2.0 : We have removed the components, which are currently only displayed on the 3D model page.</p>
 					<h4>Clone</h4>
 					<p>We take a HiC Viewer and a Genome Browser as a whole.</p>
 					<p>By clicking this button, you can clone this component with empty body.</p>
@@ -340,6 +341,44 @@
 					</div> 
 					<h4>Setting</h4>
 					<p>Personal setting</p>
+					<div class="bs-docs-example" style="text-align: center;">
+						<img width="60%" src="img/fig29.png" class="img-rounded">
+					</div> 
+					<h5>Save Session</h5>
+					<p>
+						Save current browser statuses, including various loaded data.
+					</p>
+					<p class="warning">
+						For security reasons, the browser cannot actively access your device data, so the data loaded locally cannot be saved.
+					</p>
+					<h5>upload Session</h5>
+					<p>
+						Upload a session file, and restore a consistent state. 
+					</p>
+					
+					<h5>Restore while Refresh</h5>
+					<p>
+						Restore a consistent state, while you refresh the browser page.
+					</p>
+					<p class="warning">
+						For security reasons, the browser cannot actively access your device data, so the data loaded locally cannot be restored.
+					</p>
+					<h5>Force Sync</h5>
+					<p>
+						see <a href="#hicsync">here</a>.
+					</p>
+					<p>
+						When different reference genes are used, they will not be synchronized. You can force to be synchronized, which is very useful when studying different species.
+					</p>
+					<h5>Color setting</h5>
+					<div class="bs-docs-example" style="text-align: center;">
+						<img width="60%" src="img/fig30.png" class="img-rounded">
+						<hr>
+						<span>default colors</span>
+					</div> 
+					<p>
+						Provide color groups for <a href="#analyse">analyze page</a>, We will give priority to the colors you provide.
+					</p>
 
 
 
