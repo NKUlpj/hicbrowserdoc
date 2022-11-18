@@ -263,6 +263,11 @@ body::-webkit-scrollbar-thumb{
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  transition: transform 0.5s ease-in-out;
+}
+
+.case:hover{
+  transform: translateY(-10px);
 }
 
 
