@@ -114,6 +114,8 @@ body::-webkit-scrollbar-thumb{
 
 .footer div{
   margin-top: 5px;
+  text-align: center;
+  white-space: nowrap;
 }
 
 .contact-box {
