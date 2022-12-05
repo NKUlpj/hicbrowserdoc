@@ -266,8 +266,47 @@ body::-webkit-scrollbar-thumb{
   display: flex;
   flex-direction: column;
   transition: transform 0.5s ease-in-out;
+  transform: translate(0,0);
 }
 
+.case span{
+  position: absolute;
+  top: -8px;
+  width: 100px;
+  height: 100px;
+  right: -8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0,0);
+  overflow: hidden;
+}
+.case span::before{
+  content: "User Case";
+  position: absolute;
+  width: 140%;
+  height: 30px;
+  background: #62baea;
+  transform: rotate(45deg) translateY(-15px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.case span::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 8px;
+  height: 8px;
+  background-color: #1c81b8;
+  z-index: -1;
+  box-shadow: -92px -92px #1c81b8;
+}
 .case:hover{
   transform: translateY(-10px);
 }
